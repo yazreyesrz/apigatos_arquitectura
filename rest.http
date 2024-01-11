@@ -1,0 +1,17 @@
+### Obtener Gatos
+GET http://localhost:3000/gato/obtener
+
+### Crear Gato
+POST http://localhost:3000/gato/crear
+Content-Type: application/json
+
+{
+"Color": "blanco",
+"Nombre":"winter",
+"Raza":"Egipcio",
+"Pelaje":"rizado"
+}
+
+
+### Borrar Gato
+DELETE http://localhost:3000/gato/borrar/659f4156d4c08182ad34cceb
